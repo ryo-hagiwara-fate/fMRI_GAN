@@ -2,6 +2,10 @@
 - このリポジトリにデータはないため、自分で用意してください  
 
 # その他  
+- バージョン情報  
+```
+print(torch.__version__) # 1.9.1+cu111
+```
 - pytorchのバージョンによっては以下の処理を追加する必要がある。
 ```
 label_real = label_real.type_as(d_out_real.view(-1))
